@@ -1,4 +1,4 @@
-package behavioralPatterns.mediator.main;
+package behavioralPatterns.mediator.test2;
 
 public class Offer {
     private int stockShares = 0;

@@ -2,8 +2,8 @@ package behavioralPatterns.chainOfResponsibility.main;
 
 public class Main {
     public static void main(String[] args) {
-        Color color = new Black(
-                new Green(
+        Color color = new Green(
+                new Black(
                         new Yellow(
                                 new UnKnown(null))));
 

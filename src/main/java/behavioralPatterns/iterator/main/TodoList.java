@@ -1,7 +1,7 @@
 package behavioralPatterns.iterator.main;
 
 public class TodoList implements Collection {
-    String[] tasks ;
+    private String[] tasks ;
 
     public TodoList(String[] tasks) {
         this.tasks = tasks;
@@ -25,6 +25,8 @@ public class TodoList implements Collection {
         return new TaskIteratorFromEnd();
     }
 
+
+
     private class TaskIteratorFromStart implements Iterator{
         int index = 0;
 
@@ -41,6 +43,8 @@ public class TodoList implements Collection {
             return tasks[index++];
         }
     }
+
+
 
     private class TaskIteratorFromEnd implements Iterator{
         int index = tasks.length;

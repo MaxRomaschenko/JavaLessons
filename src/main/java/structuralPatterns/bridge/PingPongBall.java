@@ -7,7 +7,7 @@ public class PingPongBall extends SportsEquipment{
     }
 
     @Override
-    boolean IsReady() {
+    public boolean IsReady() {
         companyManufacturer.createEquipment();
         System.out.println(true);
         return true;

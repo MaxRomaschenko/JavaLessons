@@ -1,4 +1,4 @@
-package behavioralPatterns.mediator.main;
+package behavioralPatterns.mediator.test2;
 
 public interface Mediator {
     void saleOffer(String stock,int shares,int collCode);
